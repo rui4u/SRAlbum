@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B1FBAB51E9DC31200C1C024 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FBAB41E9DC31200C1C024 /* main.m */; };
+		2B1FBAB81E9DC31200C1C024 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FBAB71E9DC31200C1C024 /* AppDelegate.m */; };
+		2B1FBABB1E9DC31200C1C024 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FBABA1E9DC31200C1C024 /* ViewController.m */; };
+		2B1FBABE1E9DC31200C1C024 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1FBABC1E9DC31200C1C024 /* Main.storyboard */; };
+		2B1FBAC01E9DC31200C1C024 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B1FBABF1E9DC31200C1C024 /* Assets.xcassets */; };
+		2B1FBAC31E9DC31200C1C024 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1FBAC11E9DC31200C1C024 /* LaunchScreen.storyboard */; };
+		2B1FBACE1E9DC31200C1C024 /* SRAlbumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FBACD1E9DC31200C1C024 /* SRAlbumTests.m */; };
+		2B1FBAD91E9DC31200C1C024 /* SRAlbumUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FBAD81E9DC31200C1C024 /* SRAlbumUITests.m */; };
+		2B1FBB041E9DC33300C1C024 /* SRCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FBAE91E9DC33300C1C024 /* SRCameraViewController.m */; };
+		2B1FBB051E9DC33300C1C024 /* SRAlbumTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FBAED1E9DC33300C1C024 /* SRAlbumTableViewController.m */; };
+		2B1FBB061E9DC33300C1C024 /* SRAlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FBAF01E9DC33300C1C024 /* SRAlbumModel.m */; };
+		2B1FBB071E9DC33300C1C024 /* SRImageInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FBAF21E9DC33300C1C024 /* SRImageInfoModel.m */; };
+		2B1FBB081E9DC33300C1C024 /* SRAlbumPreviewCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FBAF51E9DC33300C1C024 /* SRAlbumPreviewCollectionViewCell.m */; };
+		2B1FBB091E9DC33300C1C024 /* SRAlbumPreviewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FBAF71E9DC33300C1C024 /* SRAlbumPreviewLayout.m */; };
+		2B1FBB0A1E9DC33300C1C024 /* SRAlbumPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FBAF91E9DC33300C1C024 /* SRAlbumPreviewViewController.m */; };
+		2B1FBB0B1E9DC33300C1C024 /* SRImageGridCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FBAFC1E9DC33300C1C024 /* SRImageGridCollectionViewCell.m */; };
+		2B1FBB0C1E9DC33300C1C024 /* SRImageGridCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FBAFE1E9DC33300C1C024 /* SRImageGridCollectionViewController.m */; };
+		2B1FBB0D1E9DC33300C1C024 /* SRImageGridViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FBB001E9DC33300C1C024 /* SRImageGridViewLayout.m */; };
+		2B1FBB0E1E9DC33300C1C024 /* SRImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FBB021E9DC33300C1C024 /* SRImagePickerViewController.m */; };
+		2B1FBB0F1E9DC33300C1C024 /* SRImagePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2B1FBB031E9DC33300C1C024 /* SRImagePicker.bundle */; };
+		2B1FBB121E9DC36E00C1C024 /* SRAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FBB111E9DC36E00C1C024 /* SRAlertController.m */; };
+		2B1FBB151E9DC49500C1C024 /* AssetProofModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FBB141E9DC49500C1C024 /* AssetProofModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B1FBACA1E9DC31200C1C024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B1FBAA81E9DC31100C1C024 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B1FBAAF1E9DC31100C1C024;
+			remoteInfo = SRAlbum;
+		};
+		2B1FBAD51E9DC31200C1C024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B1FBAA81E9DC31100C1C024 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B1FBAAF1E9DC31100C1C024;
+			remoteInfo = SRAlbum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B1FBAB01E9DC31100C1C024 /* SRAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SRAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B1FBAB41E9DC31200C1C024 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B1FBAB61E9DC31200C1C024 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B1FBAB71E9DC31200C1C024 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B1FBAB91E9DC31200C1C024 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2B1FBABA1E9DC31200C1C024 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2B1FBABD1E9DC31200C1C024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B1FBABF1E9DC31200C1C024 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B1FBAC21E9DC31200C1C024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B1FBAC41E9DC31200C1C024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B1FBAC91E9DC31200C1C024 /* SRAlbumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SRAlbumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B1FBACD1E9DC31200C1C024 /* SRAlbumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRAlbumTests.m; sourceTree = "<group>"; };
+		2B1FBACF1E9DC31200C1C024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B1FBAD41E9DC31200C1C024 /* SRAlbumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SRAlbumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B1FBAD81E9DC31200C1C024 /* SRAlbumUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRAlbumUITests.m; sourceTree = "<group>"; };
+		2B1FBADA1E9DC31200C1C024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B1FBAE81E9DC33300C1C024 /* SRCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRCameraViewController.h; sourceTree = "<group>"; };
+		2B1FBAE91E9DC33300C1C024 /* SRCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRCameraViewController.m; sourceTree = "<group>"; };
+		2B1FBAEC1E9DC33300C1C024 /* SRAlbumTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRAlbumTableViewController.h; sourceTree = "<group>"; };
+		2B1FBAED1E9DC33300C1C024 /* SRAlbumTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRAlbumTableViewController.m; sourceTree = "<group>"; };
+		2B1FBAEF1E9DC33300C1C024 /* SRAlbumModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRAlbumModel.h; sourceTree = "<group>"; };
+		2B1FBAF01E9DC33300C1C024 /* SRAlbumModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRAlbumModel.m; sourceTree = "<group>"; };
+		2B1FBAF11E9DC33300C1C024 /* SRImageInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRImageInfoModel.h; sourceTree = "<group>"; };
+		2B1FBAF21E9DC33300C1C024 /* SRImageInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRImageInfoModel.m; sourceTree = "<group>"; };
+		2B1FBAF41E9DC33300C1C024 /* SRAlbumPreviewCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRAlbumPreviewCollectionViewCell.h; sourceTree = "<group>"; };
+		2B1FBAF51E9DC33300C1C024 /* SRAlbumPreviewCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRAlbumPreviewCollectionViewCell.m; sourceTree = "<group>"; };
+		2B1FBAF61E9DC33300C1C024 /* SRAlbumPreviewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRAlbumPreviewLayout.h; sourceTree = "<group>"; };
+		2B1FBAF71E9DC33300C1C024 /* SRAlbumPreviewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRAlbumPreviewLayout.m; sourceTree = "<group>"; };
+		2B1FBAF81E9DC33300C1C024 /* SRAlbumPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRAlbumPreviewViewController.h; sourceTree = "<group>"; };
+		2B1FBAF91E9DC33300C1C024 /* SRAlbumPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRAlbumPreviewViewController.m; sourceTree = "<group>"; };
+		2B1FBAFB1E9DC33300C1C024 /* SRImageGridCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRImageGridCollectionViewCell.h; sourceTree = "<group>"; };
+		2B1FBAFC1E9DC33300C1C024 /* SRImageGridCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRImageGridCollectionViewCell.m; sourceTree = "<group>"; };
+		2B1FBAFD1E9DC33300C1C024 /* SRImageGridCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRImageGridCollectionViewController.h; sourceTree = "<group>"; };
+		2B1FBAFE1E9DC33300C1C024 /* SRImageGridCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRImageGridCollectionViewController.m; sourceTree = "<group>"; };
+		2B1FBAFF1E9DC33300C1C024 /* SRImageGridViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRImageGridViewLayout.h; sourceTree = "<group>"; };
+		2B1FBB001E9DC33300C1C024 /* SRImageGridViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRImageGridViewLayout.m; sourceTree = "<group>"; };
+		2B1FBB011E9DC33300C1C024 /* SRImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRImagePickerViewController.h; sourceTree = "<group>"; };
+		2B1FBB021E9DC33300C1C024 /* SRImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRImagePickerViewController.m; sourceTree = "<group>"; };
+		2B1FBB031E9DC33300C1C024 /* SRImagePicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SRImagePicker.bundle; sourceTree = "<group>"; };
+		2B1FBB101E9DC36E00C1C024 /* SRAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRAlertController.h; sourceTree = "<group>"; };
+		2B1FBB111E9DC36E00C1C024 /* SRAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRAlertController.m; sourceTree = "<group>"; };
+		2B1FBB131E9DC49500C1C024 /* AssetProofModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetProofModel.h; sourceTree = "<group>"; };
+		2B1FBB141E9DC49500C1C024 /* AssetProofModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetProofModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B1FBAAD1E9DC31100C1C024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B1FBAC61E9DC31200C1C024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B1FBAD11E9DC31200C1C024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B1FBAA71E9DC31100C1C024 = {
+			isa = PBXGroup;
+			children = (
+				2B1FBAB21E9DC31100C1C024 /* SRAlbum */,
+				2B1FBACC1E9DC31200C1C024 /* SRAlbumTests */,
+				2B1FBAD71E9DC31200C1C024 /* SRAlbumUITests */,
+				2B1FBAB11E9DC31100C1C024 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B1FBAB11E9DC31100C1C024 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B1FBAB01E9DC31100C1C024 /* SRAlbum.app */,
+				2B1FBAC91E9DC31200C1C024 /* SRAlbumTests.xctest */,
+				2B1FBAD41E9DC31200C1C024 /* SRAlbumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B1FBAB21E9DC31100C1C024 /* SRAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				2B1FBAE61E9DC33300C1C024 /* SRImagePickAndCammra */,
+				2B1FBAB61E9DC31200C1C024 /* AppDelegate.h */,
+				2B1FBAB71E9DC31200C1C024 /* AppDelegate.m */,
+				2B1FBAB91E9DC31200C1C024 /* ViewController.h */,
+				2B1FBABA1E9DC31200C1C024 /* ViewController.m */,
+				2B1FBABC1E9DC31200C1C024 /* Main.storyboard */,
+				2B1FBABF1E9DC31200C1C024 /* Assets.xcassets */,
+				2B1FBAC11E9DC31200C1C024 /* LaunchScreen.storyboard */,
+				2B1FBAC41E9DC31200C1C024 /* Info.plist */,
+				2B1FBAB31E9DC31100C1C024 /* Supporting Files */,
+			);
+			path = SRAlbum;
+			sourceTree = "<group>";
+		};
+		2B1FBAB31E9DC31100C1C024 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B1FBAB41E9DC31200C1C024 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B1FBACC1E9DC31200C1C024 /* SRAlbumTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B1FBACD1E9DC31200C1C024 /* SRAlbumTests.m */,
+				2B1FBACF1E9DC31200C1C024 /* Info.plist */,
+			);
+			path = SRAlbumTests;
+			sourceTree = "<group>";
+		};
+		2B1FBAD71E9DC31200C1C024 /* SRAlbumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B1FBAD81E9DC31200C1C024 /* SRAlbumUITests.m */,
+				2B1FBADA1E9DC31200C1C024 /* Info.plist */,
+			);
+			path = SRAlbumUITests;
+			sourceTree = "<group>";
+		};
+		2B1FBAE61E9DC33300C1C024 /* SRImagePickAndCammra */ = {
+			isa = PBXGroup;
+			children = (
+				2B1FBB131E9DC49500C1C024 /* AssetProofModel.h */,
+				2B1FBB141E9DC49500C1C024 /* AssetProofModel.m */,
+				2B1FBB101E9DC36E00C1C024 /* SRAlertController.h */,
+				2B1FBB111E9DC36E00C1C024 /* SRAlertController.m */,
+				2B1FBAE71E9DC33300C1C024 /* SRCamera */,
+				2B1FBAEA1E9DC33300C1C024 /* SRImagePick */,
+				2B1FBB031E9DC33300C1C024 /* SRImagePicker.bundle */,
+			);
+			path = SRImagePickAndCammra;
+			sourceTree = "<group>";
+		};
+		2B1FBAE71E9DC33300C1C024 /* SRCamera */ = {
+			isa = PBXGroup;
+			children = (
+				2B1FBAE81E9DC33300C1C024 /* SRCameraViewController.h */,
+				2B1FBAE91E9DC33300C1C024 /* SRCameraViewController.m */,
+			);
+			path = SRCamera;
+			sourceTree = "<group>";
+		};
+		2B1FBAEA1E9DC33300C1C024 /* SRImagePick */ = {
+			isa = PBXGroup;
+			children = (
+				2B1FBAEB1E9DC33300C1C024 /* SRAlbum */,
+				2B1FBAEE1E9DC33300C1C024 /* SRAlbumModel */,
+				2B1FBAF31E9DC33300C1C024 /* SRAlbumPreview */,
+				2B1FBAFA1E9DC33300C1C024 /* SRImageGrid */,
+				2B1FBB011E9DC33300C1C024 /* SRImagePickerViewController.h */,
+				2B1FBB021E9DC33300C1C024 /* SRImagePickerViewController.m */,
+			);
+			path = SRImagePick;
+			sourceTree = "<group>";
+		};
+		2B1FBAEB1E9DC33300C1C024 /* SRAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				2B1FBAEC1E9DC33300C1C024 /* SRAlbumTableViewController.h */,
+				2B1FBAED1E9DC33300C1C024 /* SRAlbumTableViewController.m */,
+			);
+			path = SRAlbum;
+			sourceTree = "<group>";
+		};
+		2B1FBAEE1E9DC33300C1C024 /* SRAlbumModel */ = {
+			isa = PBXGroup;
+			children = (
+				2B1FBAEF1E9DC33300C1C024 /* SRAlbumModel.h */,
+				2B1FBAF01E9DC33300C1C024 /* SRAlbumModel.m */,
+				2B1FBAF11E9DC33300C1C024 /* SRImageInfoModel.h */,
+				2B1FBAF21E9DC33300C1C024 /* SRImageInfoModel.m */,
+			);
+			path = SRAlbumModel;
+			sourceTree = "<group>";
+		};
+		2B1FBAF31E9DC33300C1C024 /* SRAlbumPreview */ = {
+			isa = PBXGroup;
+			children = (
+				2B1FBAF41E9DC33300C1C024 /* SRAlbumPreviewCollectionViewCell.h */,
+				2B1FBAF51E9DC33300C1C024 /* SRAlbumPreviewCollectionViewCell.m */,
+				2B1FBAF61E9DC33300C1C024 /* SRAlbumPreviewLayout.h */,
+				2B1FBAF71E9DC33300C1C024 /* SRAlbumPreviewLayout.m */,
+				2B1FBAF81E9DC33300C1C024 /* SRAlbumPreviewViewController.h */,
+				2B1FBAF91E9DC33300C1C024 /* SRAlbumPreviewViewController.m */,
+			);
+			path = SRAlbumPreview;
+			sourceTree = "<group>";
+		};
+		2B1FBAFA1E9DC33300C1C024 /* SRImageGrid */ = {
+			isa = PBXGroup;
+			children = (
+				2B1FBAFB1E9DC33300C1C024 /* SRImageGridCollectionViewCell.h */,
+				2B1FBAFC1E9DC33300C1C024 /* SRImageGridCollectionViewCell.m */,
+				2B1FBAFD1E9DC33300C1C024 /* SRImageGridCollectionViewController.h */,
+				2B1FBAFE1E9DC33300C1C024 /* SRImageGridCollectionViewController.m */,
+				2B1FBAFF1E9DC33300C1C024 /* SRImageGridViewLayout.h */,
+				2B1FBB001E9DC33300C1C024 /* SRImageGridViewLayout.m */,
+			);
+			path = SRImageGrid;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B1FBAAF1E9DC31100C1C024 /* SRAlbum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B1FBADD1E9DC31200C1C024 /* Build configuration list for PBXNativeTarget "SRAlbum" */;
+			buildPhases = (
+				2B1FBAAC1E9DC31100C1C024 /* Sources */,
+				2B1FBAAD1E9DC31100C1C024 /* Frameworks */,
+				2B1FBAAE1E9DC31100C1C024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SRAlbum;
+			productName = SRAlbum;
+			productReference = 2B1FBAB01E9DC31100C1C024 /* SRAlbum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B1FBAC81E9DC31200C1C024 /* SRAlbumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B1FBAE01E9DC31200C1C024 /* Build configuration list for PBXNativeTarget "SRAlbumTests" */;
+			buildPhases = (
+				2B1FBAC51E9DC31200C1C024 /* Sources */,
+				2B1FBAC61E9DC31200C1C024 /* Frameworks */,
+				2B1FBAC71E9DC31200C1C024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B1FBACB1E9DC31200C1C024 /* PBXTargetDependency */,
+			);
+			name = SRAlbumTests;
+			productName = SRAlbumTests;
+			productReference = 2B1FBAC91E9DC31200C1C024 /* SRAlbumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B1FBAD31E9DC31200C1C024 /* SRAlbumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B1FBAE31E9DC31200C1C024 /* Build configuration list for PBXNativeTarget "SRAlbumUITests" */;
+			buildPhases = (
+				2B1FBAD01E9DC31200C1C024 /* Sources */,
+				2B1FBAD11E9DC31200C1C024 /* Frameworks */,
+				2B1FBAD21E9DC31200C1C024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B1FBAD61E9DC31200C1C024 /* PBXTargetDependency */,
+			);
+			name = SRAlbumUITests;
+			productName = SRAlbumUITests;
+			productReference = 2B1FBAD41E9DC31200C1C024 /* SRAlbumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B1FBAA81E9DC31100C1C024 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = sharui;
+				TargetAttributes = {
+					2B1FBAAF1E9DC31100C1C024 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = GYDX769PJZ;
+						ProvisioningStyle = Automatic;
+					};
+					2B1FBAC81E9DC31200C1C024 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = GYDX769PJZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B1FBAAF1E9DC31100C1C024;
+					};
+					2B1FBAD31E9DC31200C1C024 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = GYDX769PJZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B1FBAAF1E9DC31100C1C024;
+					};
+				};
+			};
+			buildConfigurationList = 2B1FBAAB1E9DC31100C1C024 /* Build configuration list for PBXProject "SRAlbum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B1FBAA71E9DC31100C1C024;
+			productRefGroup = 2B1FBAB11E9DC31100C1C024 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B1FBAAF1E9DC31100C1C024 /* SRAlbum */,
+				2B1FBAC81E9DC31200C1C024 /* SRAlbumTests */,
+				2B1FBAD31E9DC31200C1C024 /* SRAlbumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B1FBAAE1E9DC31100C1C024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1FBAC31E9DC31200C1C024 /* LaunchScreen.storyboard in Resources */,
+				2B1FBAC01E9DC31200C1C024 /* Assets.xcassets in Resources */,
+				2B1FBB0F1E9DC33300C1C024 /* SRImagePicker.bundle in Resources */,
+				2B1FBABE1E9DC31200C1C024 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B1FBAC71E9DC31200C1C024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B1FBAD21E9DC31200C1C024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B1FBAAC1E9DC31100C1C024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1FBB0D1E9DC33300C1C024 /* SRImageGridViewLayout.m in Sources */,
+				2B1FBB051E9DC33300C1C024 /* SRAlbumTableViewController.m in Sources */,
+				2B1FBB041E9DC33300C1C024 /* SRCameraViewController.m in Sources */,
+				2B1FBB151E9DC49500C1C024 /* AssetProofModel.m in Sources */,
+				2B1FBB0B1E9DC33300C1C024 /* SRImageGridCollectionViewCell.m in Sources */,
+				2B1FBB091E9DC33300C1C024 /* SRAlbumPreviewLayout.m in Sources */,
+				2B1FBB0E1E9DC33300C1C024 /* SRImagePickerViewController.m in Sources */,
+				2B1FBABB1E9DC31200C1C024 /* ViewController.m in Sources */,
+				2B1FBB0C1E9DC33300C1C024 /* SRImageGridCollectionViewController.m in Sources */,
+				2B1FBAB81E9DC31200C1C024 /* AppDelegate.m in Sources */,
+				2B1FBB081E9DC33300C1C024 /* SRAlbumPreviewCollectionViewCell.m in Sources */,
+				2B1FBB121E9DC36E00C1C024 /* SRAlertController.m in Sources */,
+				2B1FBB061E9DC33300C1C024 /* SRAlbumModel.m in Sources */,
+				2B1FBAB51E9DC31200C1C024 /* main.m in Sources */,
+				2B1FBB0A1E9DC33300C1C024 /* SRAlbumPreviewViewController.m in Sources */,
+				2B1FBB071E9DC33300C1C024 /* SRImageInfoModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B1FBAC51E9DC31200C1C024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1FBACE1E9DC31200C1C024 /* SRAlbumTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B1FBAD01E9DC31200C1C024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1FBAD91E9DC31200C1C024 /* SRAlbumUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B1FBACB1E9DC31200C1C024 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B1FBAAF1E9DC31100C1C024 /* SRAlbum */;
+			targetProxy = 2B1FBACA1E9DC31200C1C024 /* PBXContainerItemProxy */;
+		};
+		2B1FBAD61E9DC31200C1C024 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B1FBAAF1E9DC31100C1C024 /* SRAlbum */;
+			targetProxy = 2B1FBAD51E9DC31200C1C024 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B1FBABC1E9DC31200C1C024 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B1FBABD1E9DC31200C1C024 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B1FBAC11E9DC31200C1C024 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B1FBAC21E9DC31200C1C024 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B1FBADB1E9DC31200C1C024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B1FBADC1E9DC31200C1C024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B1FBADE1E9DC31200C1C024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GYDX769PJZ;
+				INFOPLIST_FILE = SRAlbum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sharui.Demo.SRAlbum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2B1FBADF1E9DC31200C1C024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GYDX769PJZ;
+				INFOPLIST_FILE = SRAlbum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sharui.Demo.SRAlbum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2B1FBAE11E9DC31200C1C024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GYDX769PJZ;
+				INFOPLIST_FILE = SRAlbumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sharui.Demo.SRAlbumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SRAlbum.app/SRAlbum";
+			};
+			name = Debug;
+		};
+		2B1FBAE21E9DC31200C1C024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GYDX769PJZ;
+				INFOPLIST_FILE = SRAlbumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sharui.Demo.SRAlbumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SRAlbum.app/SRAlbum";
+			};
+			name = Release;
+		};
+		2B1FBAE41E9DC31200C1C024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GYDX769PJZ;
+				INFOPLIST_FILE = SRAlbumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sharui.Demo.SRAlbumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SRAlbum;
+			};
+			name = Debug;
+		};
+		2B1FBAE51E9DC31200C1C024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GYDX769PJZ;
+				INFOPLIST_FILE = SRAlbumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sharui.Demo.SRAlbumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SRAlbum;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B1FBAAB1E9DC31100C1C024 /* Build configuration list for PBXProject "SRAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B1FBADB1E9DC31200C1C024 /* Debug */,
+				2B1FBADC1E9DC31200C1C024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B1FBADD1E9DC31200C1C024 /* Build configuration list for PBXNativeTarget "SRAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B1FBADE1E9DC31200C1C024 /* Debug */,
+				2B1FBADF1E9DC31200C1C024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B1FBAE01E9DC31200C1C024 /* Build configuration list for PBXNativeTarget "SRAlbumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B1FBAE11E9DC31200C1C024 /* Debug */,
+				2B1FBAE21E9DC31200C1C024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B1FBAE31E9DC31200C1C024 /* Build configuration list for PBXNativeTarget "SRAlbumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B1FBAE41E9DC31200C1C024 /* Debug */,
+				2B1FBAE51E9DC31200C1C024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B1FBAA81E9DC31100C1C024 /* Project object */;
+}
